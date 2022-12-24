@@ -1,0 +1,518 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    height: 15vh;
+    background-color: rgb(5, 5, 5);
+    background-image: url("../img/banner.jpg");
+    background-size: 100vmax;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+}
+
+.img {
+    width: 15vw;
+    margin: 2rem;
+    margin-top: 1rem;
+}
+
+.navegador {
+    margin-right: 4rem !important;
+    background-color: rgb(123, 167, 201);
+    color: #db0269;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+
+.navegador li {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    margin: .5rem;
+    color: #db0269;
+}
+
+.navegador li a {
+    color: #db0269;
+}
+
+.navegador a:hover {
+    background-color: #db0269;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.desplegable {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    margin: .5rem;
+    color: white;
+    justify-self: right;
+    align-self: flex-end;
+}
+
+
+/* Main */
+
+.main {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.banner {
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(92, 131, 167, 0.54);
+}
+
+.titulo h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem !important;
+    margin-top: 1rem;
+    color: #db0269;
+}
+
+.flechas-banner a {
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+    color: #db0269;
+}
+
+
+/* Home */
+
+.filtros {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.filtros label {
+    margin: 0.5rem;
+    color: #db0269;
+    margin-top: 0;
+}
+
+.filtros input {
+    margin: 0.3rem;
+}
+
+.search-bar {
+    width: 50% !important;
+}
+
+.e-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.card {
+    width: 20%;
+    height: 70vh;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.eventos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.not-found {
+    color: #db0269;
+    height: 70vh;
+}
+
+.card img {
+    width: 100%;
+    max-height: 35%;
+}
+
+.boton-detail {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    margin: .5rem;
+    color: white;
+}
+
+.card-text {
+    margin-top: .5rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: small;
+}
+
+.card-title {
+    width: 100%;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: .5rem;
+    text-align: center;
+    padding-top: 0 !important;
+}
+
+.fecha {
+    color: #db0269;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 1rem;
+    justify-self: flex-end;
+}
+
+
+/* Footer */
+
+.footer {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+}
+
+.footer-banner {
+    background-color: rgba(92, 131, 167, 0.342);
+}
+
+.footer img {
+    width: 3vw;
+}
+
+.footer h4 {
+    color: #db0269;
+}
+
+
+/* detail */
+
+.main-detail {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+    height: 90vh;
+}
+
+.btn {
+    color: #db0269;
+}
+
+.detail {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    width: 80vw;
+}
+
+.descripcion {
+    margin: 1.5rem;
+    width: 50%;
+}
+
+.detalles-li {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-size: 2rem !important;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.descripcion img {
+    width: 100%;
+    height: 30%;
+}
+
+.descripcion h5 {
+    text-align: center;
+}
+
+
+/* Contact */
+
+.formulario {
+    width: 50vw;
+    color: #db0269;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    color: #db0269;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+/* Stats */
+
+.tabla {
+    border-style: solid;
+    color: #db0269;
+}
+
+th {
+    border-style: solid;
+    border-color: #777676;
+    border-width: thin;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+td {
+    border-style: solid;
+    border-color: #777676;
+    border-width: thin;
+    padding: 1rem;
+}
+
+.percent {
+    text-align: center;
+}
+
+.subtitulo-tabla {
+    font-size: 1rem;
+}
+
+
+/* MediaQuery */
+
+@media (max-width: 1350px) {
+    .card {
+        width: 30%;
+        height: 100vh;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .detalles-li {
+        font-size: 1.3rem !important;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 2rem !important;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        font-style: oblique;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        height: 50% !important;
+    }
+
+    .card-text {
+        width: 100% !important;
+        height: 50%;
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    .filtros {
+        height: max-content;
+    }
+
+    .categorias {
+        margin: 0;
+    }
+
+    .detail {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100vw;
+    }
+
+    .descripcion {
+        width: 50%;
+    }
+
+    .descripcion img {
+        width: 100%;
+    }
+
+    .texto {
+        height: 50%;
+    }
+
+    .card-text {
+        width: 100%;
+        height: 50%;
+        font-size: 1rem;
+    }
+
+    .main-detail {
+        height: 100%;
+    }
+
+    .card {
+        width: 30%;
+        height: 100vh;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .footer>ul {
+        width: 80vw !important;
+    }
+
+    .card-title {
+        font-size: 2.1rem;
+        font-style: oblique;
+    }
+}
+
+@media (max-width: 760px) {
+    .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .card {
+        width: 50%;
+        height: 100vh;
+    }
+
+    .descripcion img {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 2.1rem;
+        font-style: oblique;
+    }
+
+    .card-text {
+        width: 100%;
+        height: 50%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .detail {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-detail {
+        height: 100%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 2.1rem;
+        font-style: oblique;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .titulo h1 {
+        font-size: 2rem;
+    }
+
+    .titulo h2 {
+        font-size: 2rem !important;
+    }
+
+    .img {
+        width: 50vw;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .desplegable a {
+        text-align: center;
+    }
+
+    .tarjetas {
+        width: 100%;
+    }
+
+    .categorias {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 0;
+    }
+
+    .filtros {
+        height: max-content;
+    }
+
+    .card-title {
+        font-size: 2.1rem;
+        font-style: oblique;
+    }
+
+    .navegador {
+        margin-right: 0 !important;
+    }
+
+    .card-text {
+        width: 100%;
+        height: 50%;
+        font-size: 1rem;
+    }
+}
